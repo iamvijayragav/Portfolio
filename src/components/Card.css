@@ -1,0 +1,107 @@
+/* 
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+    margin: 10px;
+}
+
+.card p {
+    margin: 8px 0;
+}
+
+.card span {
+    font-weight: bold;
+    color: #333;
+}
+
+.card p:first-child {
+    background-color: #f8f8f8;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.card p:nth-child(3) {
+    color: #777;
+}
+
+.card p:last-child {
+    font-style: italic;
+} */
+
+
+/* CardComponent.css */
+
+.card-container {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+    overflow: inherit;
+}
+
+.card {
+    flex: 0 0 250px;
+    /* Fixed width for each card */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: normal;
+    padding: 20px;
+    /* Add margin between cards */
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    /* Optional: Add hover effect */
+    &:hover {
+        transform: scale(1.05);
+    }
+    /* Optional: Add some margin */
+    /* Additional styles for a cool look */
+    border: 2px solid #3498db;
+    /* Border color */
+}
+
+.card p {
+    margin: 8px 0;
+}
+
+.card span {
+    font-weight: bold;
+    color: #3498db;
+    /* Title and span color */
+}
+
+
+/* Optional: Add a background color to the title */
+
+.card p:first-child {
+    background-color: #ecf0f1;
+    /* Background color */
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+/* Optional: Style the name and position */
+
+.card p:nth-child(3) {
+    color: #555;
+    /* Name color */
+}
+
+.card p:last-child {
+    font-style: italic;
+    color: #777;
+    /* Position color */
+}
